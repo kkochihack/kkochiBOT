@@ -30,5 +30,5 @@ async def on_message(message):
         await message.channel.send("```버전 : 1.0```")
 
 
-access = token = os.environ['BOT_TOKEN']
+access = token = os.environ["BOT_TOKEN"]
 client.run(access_token)
